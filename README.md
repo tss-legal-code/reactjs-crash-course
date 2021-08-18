@@ -1,24 +1,6 @@
-# TODO
+# Following React JS Crash Course 2021 by Traversy Media
 
-1) to create "Password manager" app to manage all user's passwords for different purposes (mails, devices, accounts, servers, etc.).
-
-2) App has (at least) 3 pages: 
-
-    2.1) login, 
-
-    2.2) register, 
-
-    2.3) dashboard (main logged in view).
-
-3) User should be able to add/edit/delete/reveal passwords on the dashboard after login.
-
-4) All password data should be stored some where, so when user reloads pages, he'll be redirected back to the dashboard and all the passwords will be fetched.
-
-5) any DB or local storage.
-
-6) By default passwords should be hidden with "*", when user clicks the password field it reveals the real password.
-
-7) Stack to use: React, Redux
+Get started with React in this crash course. We will be building a task tracker app and look at components, props, state, hooks, working with an API and more.
 
 # Getting Started with Create React App
 

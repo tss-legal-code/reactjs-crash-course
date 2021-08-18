@@ -41,6 +41,10 @@ body {
   font-family: inherit;
 }
 
+.fixed-size-btn {
+  width: 7em; 
+}
+
 .btn:focus {
   outline: none;
 }
