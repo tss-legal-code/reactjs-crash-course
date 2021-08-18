@@ -1,4 +1,4 @@
-import { Header } from "./components/Header";
+import Header from "./components/Header";
 function App() {
     // const name = "bard";
     // var x = true;
