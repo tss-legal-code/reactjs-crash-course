@@ -3,10 +3,6 @@ import PropTypes from 'prop-types'
 
 
 const Button = ({color, text, onClick}) => {
-    // const onClick = (event) => {
-    //     console.log(event);
-    // } 
-
     return (
         <button 
             onClick={onClick}
@@ -18,7 +14,7 @@ const Button = ({color, text, onClick}) => {
     )
 }
 
-export default Button
+
 
 Button.defaultProps = {
     color: "steelBlack",
@@ -29,3 +25,5 @@ Button.propTypes = {
     text : PropTypes.string.isRequired,
     onClick : PropTypes.func.isRequired,
 }
+
+export default Button
