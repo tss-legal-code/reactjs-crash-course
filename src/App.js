@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { Header } from "./components/Header";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    // const name = "bard";
+    // var x = true;
+    // const changeX =()=> {
+    //     x = x ? false: true;
+    //     return x;
+    // };
+    // function handleClick() {
+    //     console.log('По кнопке кликнули');
+    // }
+    return (
+        <div className="container">
+            <Header  />
+            {/* <h1> HEllo {name}! from react</h1> */}
+            {/* <button onClick={handleClick}>Нажми на меня</button>;
+            <button onClick={changeX}> {x ? "god bless yoy": "walk in peace"}</button> */}
+        </div>
+    );
 }
 
 export default App;
