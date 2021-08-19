@@ -2,12 +2,20 @@
 
 Let's et started with React in this crash course. We will be building a task tracker app and look at components, props, state, hooks, working with an API and more.
 
-to observe this "great" task tracker app 
-clone repo
-install dependencies
-run first: npm run server // it is a mock json-sever
-run second: npm start
-in browser go to: http://localhost:3000/
+to observe this "great" task tracker app, please, copy and run in terminal (tested under Windows 10, node v16.4.2, nvm v1.1.7):
+
+git clone https://github.com/tss-legal-code/reactjs-crash-course.git
+
+cd ./reactjs-crash-course
+
+npm i
+
+START "" /B npm run server > ./serverOutput.log # to run in background
+
+START "" /B npm start # hit "Enter" if "Enter key" of this row was not copypasted
+
+(browser automatically opens at at http://localhost:3000/)
+
 enjoy the magic of ReactJS \(^_^)/
 
 # Getting Started with Create React App
